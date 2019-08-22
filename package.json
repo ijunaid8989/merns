@@ -1,0 +1,9 @@
+{
+  "name": "merns",
+  "version": "1.0.0",
+  "description": "This is React/Redux/Express/MongoDB",
+  "main": "index.js",
+  "author": "Junaid Farooq",
+  "license": "MIT",
+  "private": false
+}
