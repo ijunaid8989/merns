@@ -6,8 +6,11 @@
   "author": "Junaid Farooq",
   "license": "MIT",
   "scripts": {
+    "client-install": "yarn --prefix client",
     "start": "node server.js",
-    "server": "nodemon server.js"
+    "server": "nodemon server.js",
+    "client": "yarn start --prefix client",
+    "dev": "concurrently \"yarn run server\" \"npm run client\""
   },
   "private": false,
   "dependencies": {
